@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ### 4. Launch the Tool
 Run the main script to enter the interactive setup:
 ```bash
-python3 socialghost.py
+python3 SocialGhost.py
 ```
  
 ---
