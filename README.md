@@ -19,6 +19,7 @@ SocialGhost is built to be lightweight and runs on any modern OS with Python 3.8
 Pull the source code from the repository to your local machine:
 ```bash
 git clone https://github.com/realDarkside84/SocialGhost.git
+cd SocialGhost   ## change to the directory
 ```
  
 ### 2. Create & Activate a Virtual Environment
@@ -81,6 +82,12 @@ You can adjust how deep the engine goes based on the "Cyber Awareness" of your t
 | `3` | Symbol Injection | Expands the character set to include all special symbols allowed in modern password policies. |
 | `4` | Non-Linear | Removes "ordered" logic to create rare mixtures, like double-dates or name-on-name combinations. |
 | `5` | Nuclear | The maximum setting — generates high-entropy, complex results for the most difficult targets. |
+
+**Example Command :**
+
+```bash
+python3 SocialGhost.py --level 3 --chars --min 8 --max 12 --leet
+```
  
 ### Power User Flags
  
